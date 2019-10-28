@@ -41,10 +41,13 @@ let
     pscid = import ./pscid {
       inherit pkgs purs;
     };
+
+    spago2nix = import ./spago2nix {
+      inherit pkgs;
+    };
   };
 
   buildInputs = builtins.attrValues inputs;
-
 in inputs // {
   inputs = inputs;
 
