@@ -5,6 +5,9 @@ test_implementation:
 	which purs
 	purs --version
 
+	which purty
+	purty --help
+
 	which spago2nix
 	spago2nix
 
@@ -48,5 +51,6 @@ update_all:
 		"./psc-package2nix/update.sh" \
 		"./purp/update.sh" \
 		"./purs/update.sh" \
+		"./purty/update.sh" \
 		"./spago/update.sh" \
 		"./zephyr/update.sh"

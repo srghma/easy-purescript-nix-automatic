@@ -14,6 +14,10 @@ let
 
     purescript = purs;
 
+    purty = import ./purty {
+      inherit pkgs;
+    };
+
     psc-package-simple = import ./psc-package-simple {
       inherit pkgs;
     };

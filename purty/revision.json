@@ -1,0 +1,11 @@
+{
+  "version": "4.5.2",
+  "linux": {
+    "url": "https://dl.bintray.com/joneshf/generic/purty-4.5.2-linux.tar.gz",
+    "sha256": "1niqbwrq4acxixynrcjbfsbz4g4zdy1dxi0qxskmsi3q3nikg5qj"
+  },
+  "mac": {
+    "url": "https://dl.bintray.com/joneshf/generic/purty-4.5.2-osx.tar.gz",
+    "sha256": "0mjiwbgwvic3gzh3s59x8v0pp9p5zpvxys6kikv4f9zkz2wnsrwc"
+  }
+}
