@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#!nix-shell -i bash -p nix-prefetch-git jq nodePackages.node2nix nodePackages.bower2nix
+#!nix-shell -i bash --packages nix-prefetch-git jq nodePackages.node2nix "(import ./default.nix {}).spago2nix"
 
 # prelude
 script_dir=$(dirname "$(readlink -f "$BASH_SOURCE")")
