@@ -38,9 +38,9 @@ let
       inherit pkgs;
     };
 
-    pscid = import ./pscid {
-      inherit pkgs purs;
-    };
+    # pscid = import ./pscid {
+    #   inherit pkgs purs;
+    # };
 
     spago2nix = import ./spago2nix {
       inherit pkgs;
