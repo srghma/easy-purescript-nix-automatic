@@ -1,7 +1,7 @@
-default:
-	nix-shell --run 'make test'
-
 test:
+	nix-shell --run 'make test_implementation'
+
+test_implementation:
 	which purs
 	purs --version
 
@@ -20,9 +20,6 @@ test:
 	which dhall-to-json
 	dhall-to-json --version
 
-	which spacchetti
-	spacchetti version
-
 	which spago
 	spago version
 
@@ -32,6 +29,7 @@ test:
 	which psc-package2nix
 	which pp2n
 	pp2n
+
 
 # TODO: dont depend on npm
 
