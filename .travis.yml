@@ -1,4 +1,4 @@
 sudo: required
 dist: trusty
 language: nix
-script: make
+script: make test
