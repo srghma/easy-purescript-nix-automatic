@@ -1,11 +1,11 @@
 {
-  "version": "0.12.1.0",
+  "version": "0.13.1",
   "linux": {
-    "url": "https://github.com/spacchetti/spago/releases/download/0.12.1.0/linux.tar.gz",
-    "sha256": "0zvnymdvf94w1m5yhibqdb3jv178ipq4vy13clrgz5ny5icv019k"
+    "url": "https://github.com/spacchetti/spago/releases/download/0.13.1/linux.tar.gz",
+    "sha256": "0s2ck0yd494mbjn21fghra2hh0h5mc5warpak19a8v7xbf65vhl5"
   },
   "mac": {
-    "url": "https://github.com/spacchetti/spago/releases/download/0.12.1.0/osx.tar.gz",
-    "sha256": "19wsw8dfcidjyq84z060vrabjikbixvy1n0drssl1yx400pqq8a9"
+    "url": "https://github.com/spacchetti/spago/releases/download/0.13.1/osx.tar.gz",
+    "sha256": "06hkqvz0biim6qjzhwh76j5njjidk8w8ark1w1ybkqcn07cp67v1"
   }
 }
