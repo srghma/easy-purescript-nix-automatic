@@ -18,11 +18,10 @@ let
       inherit pkgs;
     };
 
-    psc-package-simple = import ./psc-package-simple {
-      inherit pkgs;
-    };
-
-    psc-package = psc-package-simple;
+    # error on build, done want to deal with this
+    # psc-package-simple = import ./psc-package-simple {
+    #   inherit pkgs;
+    # };
 
     purp = import ./purp {
       inherit pkgs;

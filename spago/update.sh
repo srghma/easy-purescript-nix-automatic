@@ -5,7 +5,7 @@
 script_dir=$(dirname "$(readlink -f "$BASH_SOURCE")")
 
 # config
-owner="spacchetti"
+owner="purescript"
 repo="spago"
 
 last_release_version=$(curl -s https://api.github.com/repos/$owner/$repo/releases/latest | jq --raw-output .tag_name)

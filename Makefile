@@ -11,8 +11,8 @@ test_implementation:
 	which spago2nix
 	spago2nix
 
-	which psc-package
-	psc-package --version
+	# which psc-package
+	# psc-package --version
 
 	which purp
 	purp
