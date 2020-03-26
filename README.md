@@ -1,3 +1,5 @@
+https://github.com/justinwoo/easy-purescript-nix
+
 # Easy PureScript Nix, NixOS Ready™
 
 [![Build Status](https://travis-ci.com/justinwoo/easy-purescript-nix.svg?branch=master)](https://travis-ci.com/justinwoo/easy-purescript-nix)
