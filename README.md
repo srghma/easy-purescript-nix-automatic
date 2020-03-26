@@ -1,4 +1,4 @@
-https://github.com/justinwoo/easy-purescript-nix
+based on https://github.com/justinwoo/easy-purescript-nix
 
 # Easy PureScript Nix, NixOS Ready™
 
