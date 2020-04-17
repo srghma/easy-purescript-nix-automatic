@@ -1,4 +1,8 @@
-based on https://github.com/justinwoo/easy-purescript-nix, is easier to update
+# Fork of https://github.com/justinwoo/easy-purescript-nix
+
+but with update scripts
+
+check `make update_all`
 
 # Easy PureScript Nix, NixOS Ready™
 
