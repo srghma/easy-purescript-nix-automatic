@@ -42,6 +42,9 @@ test_implementation:
 # https://github.com/marketplace/actions/create-pull-request#example-workflow-to-automate-periodic-dependency-updates
 # https://github.com/cachix/install-nix-action/blob/master/src/main.ts
 
+# TODO
+# "./purty/update.sh"
+
 update_all:
 	npm install -g concurrently
 	concurrently \
@@ -51,6 +54,5 @@ update_all:
 		"./psc-package2nix/update.sh" \
 		"./purp/update.sh" \
 		"./purs/update.sh" \
-		"./purty/update.sh" \
 		"./spago/update.sh" \
 		"./zephyr/update.sh"
