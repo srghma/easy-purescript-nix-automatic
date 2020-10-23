@@ -1,11 +1,7 @@
 {
-  "version": "v0.2.2",
-  "linux": {
-    "url": "https://github.com/coot/zephyr/releases/download/v0.2.2/x86_64-linux.tar.gz",
-    "sha256": "0kgvrd6i1yj5n09ar82q27wgq6n5x9x6iy93nx1yqvk87kcmbji6"
-  },
-  "mac": {
-    "url": "https://github.com/coot/zephyr/releases/download/v0.2.2/x86_64-osx.tar.gz",
-    "sha256": "1fslg0h5dzrah1rkjvz9gw2s2kksmdfdkpz7a7z1akn8s6nqnd93"
-  }
+  "url": "https://github.com/coot/zephyr",
+  "rev": "a301e3311f136665e50b2f8d10dafc3c65567ea9",
+  "date": "2020-06-04T12:40:01+02:00",
+  "sha256": "0b03whld843p79kyl0d3mf3d8rjjg18yad809sn1xsm74ah8lyzc",
+  "fetchSubmodules": false
 }
