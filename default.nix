@@ -37,9 +37,9 @@ let
       inherit pkgs;
     };
 
-    zephyr = import ./zephyr {
-      inherit pkgs;
-    };
+    # zephyr = import ./zephyr {
+    #   inherit pkgs;
+    # };
 
     # pscid = import ./pscid {
     #   inherit pkgs purs;
