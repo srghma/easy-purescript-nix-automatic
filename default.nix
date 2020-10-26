@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> {} }:
+{ pkgs ? import <nixpkgs-master> {} }:
 
 let
   easy-dhall = import ./easy-dhall {
@@ -11,10 +11,10 @@ let
       revisions = builtins.fromJSON (builtins.readFile ./purs/revision.json);
     };
 
-    purs-0-14 = import ./purs {
-      inherit pkgs;
-      revisions = builtins.fromJSON (builtins.readFile ./purs/0-14-revision.json);
-    };
+    # purs-0-14 = import ./purs {
+    #   inherit pkgs;
+    #   revisions = builtins.fromJSON (builtins.readFile ./purs/0-14-revision.json);
+    # };
 
     purs-simple = purs;
 
@@ -33,7 +33,8 @@ let
       inherit pkgs;
     };
 
-    inherit (easy-dhall) dhall-simple dhall-json-simple;
+    # TODO: attribute 'installShellFiles' missing
+    # inherit (easy-dhall) dhall-simple dhall-json-simple;
 
     spago = import ./spago {
       inherit pkgs;
