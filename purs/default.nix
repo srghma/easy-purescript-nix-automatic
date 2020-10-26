@@ -1,4 +1,4 @@
-{ pkgs ? import <nixpkgs> {} }:
+{ pkgs ? import <nixpkgs> {}, revisions }:
 
 let
   dynamic-linker = pkgs.stdenv.cc.bintools.dynamicLinker;
@@ -11,7 +11,7 @@ let
           chmod u-w $PURS
         '';
 
-  revisions = builtins.fromJSON (builtins.readFile ./revision.json);
+  # revisions = builtins.fromJSON (builtins.readFile ./revision.json);
 in pkgs.stdenv.mkDerivation rec {
   name = "purs-simple";
 
