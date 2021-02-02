@@ -8,8 +8,8 @@ script_dir=$(dirname "$(readlink -f "$BASH_SOURCE")")
 owner="purescript"
 repo="purescript"
 
-last_release_version=$(curl -s https://api.github.com/repos/$owner/$repo/releases/latest | jq --raw-output .tag_name)
-# last_release_version="v0.14.0-rc3"
+# last_release_version=$(curl -s https://api.github.com/repos/$owner/$repo/releases/latest | jq --raw-output .tag_name)
+last_release_version="v0.14.0-rc5"
 
 linux_url="https://github.com/$owner/$repo/releases/download/$last_release_version/linux64.tar.gz"
 echo "linux_url=$linux_url"

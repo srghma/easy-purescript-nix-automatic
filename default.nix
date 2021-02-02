@@ -11,10 +11,10 @@ let
       revisions = builtins.fromJSON (builtins.readFile ./purs/revision.json);
     };
 
-    # purs-0-14 = import ./purs {
-    #   inherit pkgs;
-    #   revisions = builtins.fromJSON (builtins.readFile ./purs/0-14-revision.json);
-    # };
+    purs-0-14 = import ./purs {
+      inherit pkgs;
+      revisions = builtins.fromJSON (builtins.readFile ./purs/0-14-revision.json);
+    };
 
     purs-simple = purs;
 

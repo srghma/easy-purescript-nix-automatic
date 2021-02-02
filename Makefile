@@ -20,8 +20,8 @@ test_implementation:
 	which dhall
 	dhall version
 
-	which dhall-to-json
-	dhall-to-json --version
+	# which dhall-to-json
+	# dhall-to-json --version
 
 	which spago
 	spago version
