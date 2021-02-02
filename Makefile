@@ -53,5 +53,6 @@ update_all:
 		"./psc-package2nix/update.sh" \
 		"./purp/update.sh" \
 		"./purs/update.sh" \
+		"./purty/update.sh" \
 		"./spago/update.sh" \
 		"./zephyr/update.sh"

@@ -36,7 +36,6 @@ pkgs.stdenv.mkDerivation rec {
     mkdir -p $out/bin
     PURTY="$out/bin/purty"
     install -D -m555 -T purty $PURTY
-    ${patchelf libPath}
     mkdir -p $out/etc/bash_completion.d/
     $PURTY --bash-completion-script $PURTY > $out/etc/bash_completion.d/purty-completion.bash
   '';
