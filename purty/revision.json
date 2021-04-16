@@ -1,11 +1,11 @@
 {
-  "version": "6.3.0",
+  "version": "7.0.0",
   "linux": {
-    "url": "https://dl.bintray.com/joneshf/generic/purty-6.3.0-linux.tar.gz",
-    "sha256": "0akcc16p6i6mc7z1jc6jcff6y7q1b350f9hkx8vxji4k2fga4kjy"
+    "url": "https://dl.bintray.com/joneshf/generic/purty-7.0.0-linux.tar.gz",
+    "sha256": "17fzdfiws4wmhbj2q5mf5cadbsnp7ag2bf12y3awfvvmajh5ddjh"
   },
   "mac": {
-    "url": "https://dl.bintray.com/joneshf/generic/purty-6.3.0-osx.tar.gz",
-    "sha256": "1n671k6myxmydh2x14qz5525jl12d3n6in85k5npn4gh1lml02y9"
+    "url": "https://dl.bintray.com/joneshf/generic/purty-7.0.0-osx.tar.gz",
+    "sha256": "0ci72ijx6m43fy61cwkkyxp4prxhwrrnbh5myr3sva97cqvm6bj8"
   }
 }
