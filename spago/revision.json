@@ -1,11 +1,11 @@
 {
-  "version": "0.20.0",
+  "version": "0.20.3",
   "linux": {
-    "url": "https://github.com/purescript/spago/releases/download/0.20.0/linux.tar.gz",
-    "sha256": "077r8dnxda8v92rpq018iwbh4b6m5af3wa6cdyg6gm61q4sjw03k"
+    "url": "https://github.com/purescript/spago/releases/download/0.20.3/linux.tar.gz",
+    "sha256": "1g267pnwqdy1r6x938pwd93b0095q3gk7r59r678f18pl0pvrzc1"
   },
   "mac": {
-    "url": "https://github.com/purescript/spago/releases/download/0.20.0/osx.tar.gz",
+    "url": "https://github.com/purescript/spago/releases/download/0.20.3/osx.tar.gz",
     "sha256": ""
   }
 }

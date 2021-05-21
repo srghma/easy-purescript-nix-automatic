@@ -1,0 +1,28 @@
+#!/usr/bin/env nix-shell
+#!nix-shell -i bash -p nix curl jq
+
+# prelude
+script_dir=$(dirname "$(readlink -f "$BASH_SOURCE")")
+
+# config
+owner="joneshf"
+repo="purty"
+
+last_release_version=$(curl "https://gitlab.com/api/v4/projects/$owner%2F$repo/releases" | jq --raw-output ".[0].name")
+
+echo "last_release_version=$last_release_version"
+
+linux_url="https://gitlab.com/$owner/$repo/-/archive/$last_release_version/$repo-$last_release_version.tar.gz"
+echo "linux_url=$linux_url"
+# mac_url="https://dl.bintray.com/$subject/$repo/$package-$last_release_version-osx.tar.gz"
+# echo "mac_url=$mac_url"
+
+cat > "$script_dir/revision.json" <<EOF
+{
+  "version": "$last_release_version",
+  "linux": {
+    "url": "$linux_url",
+    "sha256": "$(nix-prefetch-url --quiet $linux_url)"
+  }
+}
+EOF
