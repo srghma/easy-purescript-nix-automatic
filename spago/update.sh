@@ -12,7 +12,7 @@ last_release_version=$(curl -s https://api.github.com/repos/$owner/$repo/release
 
 linux_url="https://github.com/$owner/$repo/releases/download/$last_release_version/linux.tar.gz"
 echo "linux_url=$linux_url"
-mac_url="https://github.com/$owner/$repo/releases/download/$last_release_version/osx.tar.gz"
+mac_url="https://github.com/$owner/$repo/releases/download/$last_release_version/macOS.tar.gz"
 echo "mac_url=$mac_url"
 
 cat > "$script_dir/revision.json" <<EOF

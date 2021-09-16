@@ -5,7 +5,7 @@
     "sha256": "1g267pnwqdy1r6x938pwd93b0095q3gk7r59r678f18pl0pvrzc1"
   },
   "mac": {
-    "url": "https://github.com/purescript/spago/releases/download/0.20.3/osx.tar.gz",
-    "sha256": ""
+    "url": "https://github.com/purescript/spago/releases/download/0.20.3/macOS.tar.gz",
+    "sha256": "0zw8vhrj5ql6fvs0rvrzahj2wlpy2x8f2zvm8k81pp78ph2w9z1y"
   }
 }
