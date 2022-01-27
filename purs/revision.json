@@ -1,11 +1,11 @@
 {
-  "version": "v0.14.4",
+  "version": "v0.14.5",
   "linux": {
-    "url": "https://github.com/purescript/purescript/releases/download/v0.14.4/linux64.tar.gz",
-    "sha256": "0hgsh6l52z873b2zk3llvqik18ifika48lmr71qyhlqf250ng9m0"
+    "url": "https://github.com/purescript/purescript/releases/download/v0.14.5/linux64.tar.gz",
+    "sha256": "1mvxvn30iyrq0ck6g08f925gxnnhbfgl29b2gjjsmm3m9mpll7ws"
   },
   "mac": {
-    "url": "https://github.com/purescript/purescript/releases/download/v0.14.4/macos.tar.gz",
-    "sha256": "0m6zwb5f890d025zpn006qr8cky6zhjycap5az9zh6h47jfbrcf9"
+    "url": "https://github.com/purescript/purescript/releases/download/v0.14.5/macos.tar.gz",
+    "sha256": "1brvbpzr3cwls809fl0sjrm9cbh8v7maf5d7ic2mha0xapabgfpv"
   }
 }

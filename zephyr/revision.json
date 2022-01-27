@@ -1,9 +1,9 @@
 {
   "url": "https://github.com/coot/zephyr",
-  "rev": "24ef2d68e4c59fcd2f06bd4d359ba1a99f02065a",
-  "date": "2020-11-22T14:56:31+01:00",
-  "path": "/nix/store/6n7d2ifvck13pr419j7al017xyfdaylr-zephyr",
-  "sha256": "1l2cx2w5q418z0jcg8hhfcn5x40iif7c5463cvjca88diipaapiv",
+  "rev": "5731504a2723dee63b2c38152d6d5b2a4c4a2684",
+  "date": "2022-01-23T07:28:35+01:00",
+  "path": "/nix/store/30ayfzj75d96h2h97dpk8w2a5i4243w6-zephyr",
+  "sha256": "0ag9i445lh3ykrgnxcm7iv0m2ssy1qvsmizy2dq68pqv89pgc48a",
   "fetchSubmodules": false,
   "deepClone": false,
   "leaveDotGit": false
